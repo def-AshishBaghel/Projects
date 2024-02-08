@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="cal">
+            <div class="screen">
+                <input type="text" value=" " id="screen" readonly>
+            </div>
+            <div class="btn-section">
+                <div class="btn">
+                    <input type="button" value="AC" onclick="Ac()">
+                    <input type="button" value="C" onclick="back()">
+                    <input type="button" value="." onclick="return_value('.')">
+                    <input type="button" value="X" onclick="return_value('*')">
+                </div>
+                <div class="btn">
+                    <input type="button" value="9" onclick="return_value('9')">
+                    <input type="button" value="8" onclick="return_value('8')">
+                    <input type="button" value="7" onclick="return_value('7')">
+                    <input type="button" value="/" onclick="return_value('/')">
+                </div>
+                <div class="btn">
+                    <input type="button" value="6" onclick="return_value('6')">
+                    <input type="button" value="5" onclick="return_value('5')">
+                    <input type="button" value="4" onclick="return_value('4')">
+                    <input type="button" value="-" onclick="return_value('-')">
+                </div>
+                <div class="btn">
+                    <input type="button" value="3" onclick="return_value('3')">
+                    <input type="button" value="2" onclick="return_value('2')">
+                    <input type="button" value="1" onclick="return_value('1')">
+                    <input type="button" value="+" onclick="return_value('+')">
+                </div>
+                <div class="btn">
+                    <input type="button" value="0" onclick="return_value('0')">
+                    <input type="button" value="00" onclick="return_value('00')">
+                    <input type="button" id="eqal" value="=" onclick="calculate()">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
