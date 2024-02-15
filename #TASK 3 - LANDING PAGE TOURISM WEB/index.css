@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+nav {
+
+    margin: 0;
+    height: 40px;
+    height: 560px;
+    background: url(./images/taj2.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.mr {
+    margin-top: 30px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    color: mediumorchid;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: -10px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(7, 5, 5, 16%);
+    width: 100%;
+
+
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-right: 20px;
+    justify-content: center;
+    height: 40px;
+
+}
+
+nav a {
+    color: #273c0a;
+    text-decoration: none;
+    font-size: 22px;
+
+
+}
+
+nav h1 {
+    color: #273c0a;
+}
+
+nav button {
+    height: 43px;
+    width: 190px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: white;
+    color: #273c0a;
+    font-size: 19px;
+    box-shadow: 0px 0px 13px rgb(14, 0, 0);
+    transition: all ease-in 3ms;
+    cursor: pointer;
+}
+
+.topbox {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    height: 60%;
+    overflow: hidden;
+
+
+}
+
+.text h1 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+    margin: 0;
+}
+
+.text p {
+    margin-left: 13px;
+    font-size: 39px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+.text span {
+    margin-left: 13px;
+    font-size: 53px;
+    color: mediumorchid;
+    text-shadow: 1px 1px 9px white;
+}
+.net h1{
+    color: white;
+    font-size: 38px;
+}
+
+.service-box img {
+    height: 60px;
+    width: 60px;
+    margin: 9px;
+
+}
+.service-box p{
+    font-size: 14px;
+}
+
+.service-box {
+    width: 125px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+
+
+}
+
+.service-box h2 {
+    margin: 10px;
+}
+
+.service {
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.service-head-box {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 60px;
+
+
+}
+
+.trip-main-box {
+    display: flex;
+    gap: 90px;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.trip {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.trip-box img {
+    height: 300px;
+    width: 250px;
+
+
+
+}
+
+
+.trip-box {
+    height: 300px;
+    width: 250px;
+    box-shadow: 0px 0px 3px gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.trip-box:hover .book {
+    opacity: 1
+}
+
+.op {
+    display: none;
+    font-size: 35px;
+    color: white;
+}
+
+.book h1 {
+    background-color: white;
+    color: green;
+    font-size: 21px;
+    margin: 5px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.book {
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    opacity: 0;
+    transition: opacity 1s;
+
+
+
+}
+
+.book p {
+    margin: 5px;
+
+}
+
+.book span {
+    background-color: rgba(5, 158, 5, 0.861);
+    padding: 12px 20px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+}
+
+.data {
+    background: url(./images/abhishek-prasad-N3VzleBhOvk-unsplash.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    /* filter: grayscale(100%); */
+    margin: 0px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(39, 41, 42, 0.6);
+    justify-content: center;
+
+}
+
+.form-text {
+    width: 30%;
+    color: white;
+}
+
+.final-form {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 10px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.same {
+    height: 35px;
+    max-width: 520px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+
+}
+
+input::placeholder {
+    color: white;
+    padding: 10px;
+
+}
+
+input::-ms-value {
+    color: red;
+}
+
+input:focus {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.265);
+}
+
+.dif {
+    max-width: 100%;
+    height: 35px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+
+
+}
+
+.final-form ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    max-width: 530px;
+
+}
+
+.btn {
+    background-color: rgb(27, 216, 27);
+    width: 220px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    border: none;
+    margin: auto;
+    color: white;
+}
+
+footer {
+    background-color: green;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.two {
+    margin-top: 10px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.btn2 {
+    background-color: white;
+    padding: 10px 0px;
+    border: none;
+    width: 120px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin: 10px;
+
+}
+
+.diff {
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+
+
+.one {
+    width: 100%;
+}
+
+
+
+.one h1,
+.one p {
+    color: white;
+    margin: 10px;
+    text-shadow: 3px 3px 10px black;
+}
+
+.two {
+    color: white;
+    max-width: 100%;
+
+}
+
+.details {
+    margin-left: 15px;
+}
+
+.details-list {
+
+    padding: 0;
+}
+
+.details-list li,
+.details-list p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: white;
+    /* color of the text */
+    list-style: none;
+}
+
+.arrow {
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    /* color of the arrow */
+}
+
+
+@media screen and (max-width:1060px) {
+
+    .head ul {
+        display: none
+    }
+
+    .topbox {
+        text-align: center;
+        justify-content: center;
+        margin: 0px;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .nav {
+        align-items: center;
+    }
+
+    .op {
+        display: block;
+    }
+
+    footer {
+        background-color: green;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 50% 50%;
+        row-gap: 20px;
+        overflow-y: hidden;
+
+    }
+
+
+
+    .btn2 {
+        background-color: white;
+        padding: 10px 0px;
+        border: none;
+        width: 120px;
+        border-radius: 3px;
+    }
+
+    .diff {
+        max-width: 530px;
+        height: 35px;
+        margin: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:560px) {}
