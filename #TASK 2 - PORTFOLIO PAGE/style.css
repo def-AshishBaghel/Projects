@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+body {
+    background-color: black;
+}
+
+.self {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.top {
+    height: 390px;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    /* background-color: aqua; */
+}
+
+.top ul img {
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.top p {
+    color: white;
+    font-size: 54px;
+}
+
+.details {
+
+    margin-left: 110px;
+    /* background-color: aqua; */
+}
+
+.list p {
+    color: rgba(128, 128, 128, 0.568);
+    font-size: 85px;
+    transition: all 1s;
+
+}
+
+
+.list p:hover {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.list span {
+    color: rgb(255, 255, 255);
+    font-size: 21PX;
+    margin-left: 7PX;
+}
+
+.about {
+    margin: 110px;
+    width: 800px;
+
+}
+
+.about p {
+
+    color: rgba(128, 128, 128, 0.673);
+    font-size: 27px;
+
+    animation: high 5s infinite
+}
+
+.about h1 {
+    color: white;
+    font-size: 49px;
+}
+
+.projects span {
+    color: rgb(255, 255, 255);
+    font-size: 21PX;
+    margin-left: 7PX;
+}
+
+.projects {
+    margin-left: 110px;
+    height: 600px;
+
+}
+.title{
+    color: rgba(128, 128, 128, 0.568);
+    text-align: center;
+    font-size: 75px;
+    
+}
+.connection {
+    position: relative;
+}
+
+.list2 p {
+    color: rgba(128, 128, 128, 0.568);
+    font-size: 59px;
+    transition: all 1s;
+
+}
+
+.list2 p:hover {
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+.list2 a {
+    text-decoration: none;
+}
+.project-one {
+    display: flex;
+    color: rgb(210, 210, 210);
+    grid-area: 30px;
+    width: 80%;
+    margin-left: 110px;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.top ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#gm{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  height: 30px;
+}
+#gm span{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.left {
+    font-size: 26px;
+}
+.left p:nth-child(2){
+    color: rgba(190, 187, 187, 0.764);
+    font-size: 21px;
+    margin-top: 30px;
+}
+.right img {
+    height: 260px;
+    width: auto;
+    border: 3px double white;
+    border-radius: 9px;
+
+}
+
+.up {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    position: sticky;
+    top: 90%;
+    left: 95%;
+}
+
+.up img {
+    height: 30px;
+    width: 30px;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact h1 {
+    font-size: 44px;
+
+}
+
+.contact p {
+    font-size: 21px;
+
+}
+
+form {
+
+    width: 500px;
+    margin-left: 110px;
+    margin: auto;
+    height: 500px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#btn {
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+#mg {
+    height: 90px;
+}
+
+form input {
+    height: 25px;
+    width: 500px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 21px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+}
+
+form input:focus {
+    outline: none;
+}
+
+form input::placeholder {
+    color: rgba(128, 128, 128, 0.568);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    /* Adjust as needed */
+}
+
+.copyright {
+    font-size: 29px;
+    color: white;
+}
