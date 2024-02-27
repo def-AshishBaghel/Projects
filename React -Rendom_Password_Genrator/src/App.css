@@ -1,0 +1,46 @@
+body{
+  background:url(https://images.pexels.com/photos/8721342/pexels-photo-8721342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-size: 45px;
+}
+.box{
+  background-color:rgba(0, 0, 0, 0.533);
+  height: 80px;
+  width: 550px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+margin-top: 50px;
+}
+.val{
+  height: 30px;
+  width: 400px;
+  margin-top: 10px;
+  border: none;
+}
+.btn{
+  height: 32px;
+  width: 80px;
+  background-color:pink;
+ border-radius: 0px 5px 5px 0px;
+  border:none;
+  margin-top: 10px;
+}
+.btn:hover{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+input{
+  margin-left: 5px;
+  
+}
+label{
+  color: white;
+  margin-right: 20px;
+}
